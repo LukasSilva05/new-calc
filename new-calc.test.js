@@ -15,7 +15,7 @@ test('Soma 5 e 0 espera 5', () => {
     expect(calc.soma(5, 0)).toBe(5);
 });
 
-test('Soma 5 e A espera 5a', () => {
+test('Soma 5 e A espera 5 + A', () => {
     expect(calc.soma(5, 'A')).toBe(5 + 'A');
 });
 
